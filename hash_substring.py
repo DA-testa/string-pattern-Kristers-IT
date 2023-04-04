@@ -4,7 +4,7 @@ import sys
 
 def read_input():
     
-    rezims = input("Režīms:")
+    rezims = input()
     
     if rezims.startswith('I'):
         pattern = input().rstrip()
@@ -62,4 +62,3 @@ if __name__ == '__main__':
     #start_time = time.time()
     print_occurrences(get_occurrences(*read_input()))
     #print(time.time() - start_time)
-
